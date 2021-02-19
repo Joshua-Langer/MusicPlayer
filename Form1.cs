@@ -13,6 +13,7 @@ namespace MusicPlayer
     public partial class MusicPlayer : Form
     {
         String[] paths, files;
+        bool shuffleTracks = false, repeatTracks = false;
 
         public MusicPlayer()
         {
@@ -36,11 +37,22 @@ namespace MusicPlayer
             }
         }
 
+        private void btnShuffle_Click(object sender, EventArgs e)
+        {
+            shuffleTracks = true;
+        }
+
+        private void btnRepeat_Click(object sender, EventArgs e)
+        {
+            repeatTracks = true;
+        }
+
         private void listBoxSongs_SelectedIndexChanged(object sender, EventArgs e)
         {
             //Play Music
             axWindowsMediaPlayerMusic.URL = paths[listBoxSongs.SelectedIndex];
-            
+            axWindowsMediaPlayerMusic.settings.setMode("shuffle", shuffleTracks);
+            axWindowsMediaPlayerMusic.settings.setMode("loop", repeatTracks);
         }
 
         private void closeButton_Click(object sender, EventArgs e)
@@ -48,7 +60,5 @@ namespace MusicPlayer
             //Click to close the application
             this.Close();
         }
-
-        //Things that can be added, shuffle and repeat options from the list.
     }
 }

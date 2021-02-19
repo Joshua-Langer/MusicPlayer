@@ -149,4 +149,26 @@
         AAAL
 </value>
   </data>
+  <data name="btnShuffle.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAFQSURBVEhL7dTPKsRhFMbxXyHKfsSObBiycAX+LPwrsyCxwQ3IxpKrwBXY4wZkaaPsyJadrC0k
+        vo+ZU6d3zjthfhbKU5+a30w9p3nnzFv8p5F77NVf/k7eG/Y/nzIZQA3rWMMixtEBn07s4gYvsHJzgDDL
+        UHlqAd1QenCJtDS1iabkBsgUlCNEhalwQD9aDdFnb4gKvewR+XRhBla+gVv4ojtUoNh7LX/kNL1YgQZE
+        RzMHi4b/aE2HsYUn+PJTlJYT+PJXTKCUDCHd9TNMo5Scw5c/Yxv6XXR8bWUWvlwOYZulBdAiKEsYqb/8
+        WvqgNfTlV1iFDRCtslbankeRje6eR/hSoz/YJHQsfkBkDGEeEJXLMSy6NqJibxBNyQ24gC45iy4+XYBR
+        sQkHzMOGaDWvsQNdz2l0hesodKy62n15FaXHyrPn3270Tb61pn8lRfEB2SKIFwLYB+sAAAAASUVORK5C
+        YII=
+</value>
+  </data>
+  <data name="btnRepeat.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAECSURBVEhL7dI9agJBGIDhxVQGLPwJYpkmoPECVnaCREhlIXgEGxFPYKF9ai9g6xGsQlBEvEQq
+        9QLG91t3YZCZ2VmzQsC88MCOzI+O6/0X1EL5/HibOoGqP3IohRc00Ea4gYtXWEujCd1iV8/QJt/8t5sL
+        4wFyLboFcVivSO5cnVyHXFlU4fyKP7J0+Yc+wqU3OL2m7wg3l+fEK0E2FvL8Z5K3b4od5sgg0eQX/yiG
+        sJbDAn1/FN0E6gFjGMtjBZn4IR9YeoC82geoB3ShrYA11Mlx7ZGFtk/oFsXRg7EldItcHDGCtSK20G1g
+        8o0ZanDqCRvI4qg/+erkkC8M/NEd53knLtx0Kcaye3kAAAAASUVORK5CYII=
+</value>
+  </data>
 </root>

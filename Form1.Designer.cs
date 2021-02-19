@@ -37,9 +37,13 @@ namespace MusicPlayer
             this.btnSelectSongs = new System.Windows.Forms.Button();
             this.axWindowsMediaPlayerMusic = new AxWMPLib.AxWindowsMediaPlayer();
             this.lblFooter = new System.Windows.Forms.Label();
+            this.btnShuffle = new System.Windows.Forms.PictureBox();
+            this.btnRepeat = new System.Windows.Forms.PictureBox();
             this.TopPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.closeButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayerMusic)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnShuffle)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnRepeat)).BeginInit();
             this.SuspendLayout();
             // 
             // TopPanel
@@ -109,11 +113,33 @@ namespace MusicPlayer
             // 
             this.lblFooter.AutoSize = true;
             this.lblFooter.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.lblFooter.Location = new System.Drawing.Point(184, 410);
+            this.lblFooter.Location = new System.Drawing.Point(12, 437);
             this.lblFooter.Name = "lblFooter";
             this.lblFooter.Size = new System.Drawing.Size(146, 13);
             this.lblFooter.TabIndex = 4;
             this.lblFooter.Text = "Developed by Joshua Langer";
+            // 
+            // btnShuffle
+            // 
+            this.btnShuffle.Image = ((System.Drawing.Image)(resources.GetObject("btnShuffle.Image")));
+            this.btnShuffle.Location = new System.Drawing.Point(637, 413);
+            this.btnShuffle.Name = "btnShuffle";
+            this.btnShuffle.Size = new System.Drawing.Size(19, 19);
+            this.btnShuffle.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnShuffle.TabIndex = 5;
+            this.btnShuffle.TabStop = false;
+            this.btnShuffle.Click += new System.EventHandler(this.btnShuffle_Click);
+            // 
+            // btnRepeat
+            // 
+            this.btnRepeat.Image = ((System.Drawing.Image)(resources.GetObject("btnRepeat.Image")));
+            this.btnRepeat.Location = new System.Drawing.Point(676, 413);
+            this.btnRepeat.Name = "btnRepeat";
+            this.btnRepeat.Size = new System.Drawing.Size(20, 19);
+            this.btnRepeat.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnRepeat.TabIndex = 6;
+            this.btnRepeat.TabStop = false;
+            this.btnRepeat.Click += new System.EventHandler(this.btnRepeat_Click);
             // 
             // MusicPlayer
             // 
@@ -121,6 +147,8 @@ namespace MusicPlayer
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnRepeat);
+            this.Controls.Add(this.btnShuffle);
             this.Controls.Add(this.lblFooter);
             this.Controls.Add(this.axWindowsMediaPlayerMusic);
             this.Controls.Add(this.btnSelectSongs);
@@ -134,6 +162,8 @@ namespace MusicPlayer
             this.TopPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.closeButton)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayerMusic)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnShuffle)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnRepeat)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -148,6 +178,8 @@ namespace MusicPlayer
         private System.Windows.Forms.Button btnSelectSongs;
         private AxWMPLib.AxWindowsMediaPlayer axWindowsMediaPlayerMusic;
         private System.Windows.Forms.Label lblFooter;
+        private System.Windows.Forms.PictureBox btnShuffle;
+        private System.Windows.Forms.PictureBox btnRepeat;
     }
 }
 
